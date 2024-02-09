@@ -20,7 +20,28 @@
             <button type="submit">Add</button>
         </div>
         <div class="task_container">
-            <input class="check-input"  type="checkbox" >
+            <table class="item-list">
+                <tbody>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>Apples</td>
+                    <td>
+                        <a href="javascript:void(0);" onclick="deleteItem(this)">
+                            <img src="trashCan.webp" alt="Delete item" class="delete-icon">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>Milk</td>
+                    <td>
+                        <a href="javascript:void(0);" onclick="deleteItem(this)">
+                            <img src="trashCan.webp" alt="Delete item" class="delete-icon">
+                        </a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
         </div>
     </main>
 </body>

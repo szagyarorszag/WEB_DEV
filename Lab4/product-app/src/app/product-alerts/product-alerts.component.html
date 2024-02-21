@@ -1,0 +1,4 @@
+<p *ngIf="product?.inStock === false">
+    <span>Out of stock!<br></span>
+    <button type="button" (click)="notify.emit()">Notify Me</button>
+  </p>

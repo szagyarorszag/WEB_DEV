@@ -8,7 +8,7 @@ for _ in range(int(input())):
         d[score].append(name)
 
 
-d = sorted(d.items())
-
+d = sorted(d.items(),-1)
+d = d[::-1]
 for i in sorted(d[1][1]):
     print(i)
